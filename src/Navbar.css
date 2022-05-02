@@ -1,0 +1,16 @@
+
+
+header{
+    display: grid;
+    grid-template-areas: "one one one two two two ";
+    place-items: center;
+}
+
+.header__title{
+    font-family: 'Roboto', sans-serif;
+    grid-area: one;
+}
+
+.header__user{
+    grid-area: two;
+}

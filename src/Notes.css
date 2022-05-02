@@ -1,0 +1,45 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.notes{
+    background-color: #0a1929 !important;
+    position: absolute;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    top: 100%;
+    left: 0;
+}
+
+.notes > * {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.notes,.title ,.current-date , .newFormCreator{
+    text-align: center;
+}
+
+.notes > .title{
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+.notes > .title > span{
+    color: rgb(144, 202, 249);
+    font-size:1.2em;
+}
+
+.notes > .current-date{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.current-date{
+    margin-bottom: 3em;
+}
+
+.newFormCreator{
+    margin-bottom: 1em;
+}

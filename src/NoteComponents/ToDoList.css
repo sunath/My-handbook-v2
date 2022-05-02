@@ -1,0 +1,53 @@
+
+
+@import url("//cdn.muicss.com/mui-0.10.3/css/mui.min.css");
+
+
+h3,h4{
+    text-align: center;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.todos__todo-title{
+    color: rgb(144, 202, 249);
+}
+
+
+.todo__item__details__text__area > textarea::placeholder{
+    color: aliceblue;
+}
+
+.todo__item__details__text__area > textarea{
+    height: 20vh;
+    color: white;
+}
+
+
+
+
+
+.title-name{
+    margin: auto;
+    width: 100%;
+}
+
+
+.todo-item{
+    margin-top: 2em !important;
+    margin-bottom: 1em !important;
+}
+
+.add-todo-item-btn{
+    margin-bottom: 2em !important;
+}
+
+.todo__item__field{
+    width: 100%;
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
+}
